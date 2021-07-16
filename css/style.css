@@ -150,9 +150,11 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+
+    
     
 }
+
 .down{
  z-index: 100;
  display: flex;
@@ -161,7 +163,19 @@ margin-top: -50px;
 }
 .down__str{
     position: absolute;
-    top: 530px;
+    
+    top: 990px;
+    z-index: 1
+    
+}
+.down__str:hover{
+    width: 114px;
+    height: 114px;  
+    background: rgba(0, 99, 221, 0.23);
+    Display: flex;
+    Align-items: center;
+    Justify-content: center;
+    border-radius: 50%;
     
 }
 
@@ -936,6 +950,7 @@ input::-webkit-input-placeholder {color:#FFFFFF;}
     }
     .phones__img{
         margin-bottom: -106px;
+        margin-right: 400px;
     }
     .header__info{
         margin-top: 20px;
