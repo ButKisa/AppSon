@@ -34,6 +34,7 @@ ul{
     max-width: 100%;
     margin: auto auto;
 }
+
 .logo{
     border-radius: 0 0 20px 20px;
     font-weight: 700; 
@@ -162,23 +163,22 @@ justify-content: center;
 margin-top: -50px;
 }
 .down__str{
+    max-width: 70px;
+    max-height: 70px;
+}
+.down__str__0{
     position: absolute;
-    
-    top: 990px;
-    z-index: 1
+    top: 980px;
+    z-index: 1;    
+}
+.down__str__down{
     
 }
-.down__str:hover{
-    width: 114px;
-    height: 114px;  
-    background: rgba(0, 99, 221, 0.23);
-    Display: flex;
-    Align-items: center;
-    Justify-content: center;
+.down__str__0:hover{
+    
+    box-shadow: 0px 0px 0px 24px  rgba(0, 99, 221, 0.23);
     border-radius: 50%;
-    
 }
-
 .top__3{
     background-image: url(../images/Back.png);
     display: flex;
@@ -955,7 +955,15 @@ input::-webkit-input-placeholder {color:#FFFFFF;}
     .header__info{
         margin-top: 20px;
     }
-    
+    .phones__img{
+        margin-right: 0px;
+    }
+    .down__str{
+        top: 879px;
+    }
+    .down__str__0{
+        margin-top: -95px;
+    }
 
 
     
@@ -1126,7 +1134,7 @@ input::-webkit-input-placeholder {color:#FFFFFF;}
     }
     .element__text{
         max-width: 60%;
-        margin-left: 58px;
+        margin-left: 75px;
     }
     .latest__bottom{
         margin-left: -15px;
@@ -1147,7 +1155,42 @@ input::-webkit-input-placeholder {color:#FFFFFF;}
     .slick-track{
         margin-bottom: 100px;
     }
+    .costs{
+        align-items: center;
+    }
+    .cost{
+        width: 220px;
+        height: 550px;
+    }
+    .cost__right{
+        margin-right: 0px;
+    }
+    .plan{
+        max-width: 280px;
+    }
+    .plan__button{
+        padding-left: 60px;
+    }
+    .latest__table__element{
+        margin-left: -30px;
+        max-width: 340px;
+
+    }
+    .element__title{
+        margin-left: 10px;
+    }
+    .logo {
+        margin-top: -35px;
+    }
+    
+    .header__logo {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
 }
+
 
 @media(max-width:1200px){
     .elements__3{
@@ -1224,7 +1267,7 @@ input::-webkit-input-placeholder {color:#FFFFFF;}
     }
     .plan {
         flex-direction: column;
-        max-width: 370px;  
+        max-width: 300px;  
     }
     .costs{
         display: flex;
@@ -1289,7 +1332,12 @@ input::-webkit-input-placeholder {color:#FFFFFF;}
     .days__button{
         display: none;
     }
-    
+    .woman{
+        justify-content: center;
+    }
+    .man{
+        justify-content: center;
+    }
     
 }
 
@@ -1345,6 +1393,19 @@ input::-webkit-input-placeholder {color:#FFFFFF;}
     }
     .latest__button{
         text-align: start;
+        max-width: 230px;
+
+    }
+    .element{
+        width: 260px;
+        margin-left: 20px;
+
+    }
+    .woman{
+        justify-content: center;
+    }
+    .man{
+        justify-content: center;
     }
 
 }
@@ -1353,7 +1414,12 @@ input::-webkit-input-placeholder {color:#FFFFFF;}
 @media(min-width:1081px){
     .phones{
         margin-top: 31px;
+        
     }
+    .header__logo{
+        padding-top: 15px;
+    }
+   
 }
 @media(min-width:1921px){
     .header{
